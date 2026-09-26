@@ -99,19 +99,58 @@
 
 
 #Challenge - 6;
-numbers = [
-    [10, 20, 10],
-    [30, 20, 10],
-    [40, 30, 20]
-]
+# numbers = [
+#     [10, 20, 10],
+#     [30, 20, 10],
+#     [40, 30, 20]
+# ]
 
-freq = {}
+# freq = {}
 
-for row in numbers : 
-    for num in row :
-        if num in freq :
-            freq[num] += 1
-        else : 
-            freq[num] = 1
-for num, count in freq.items() :
-    print(f"number {num} appears {count} times.")
+# for row in numbers : 
+#     for num in row :
+#         if num in freq :
+#             freq[num] += 1
+#         else : 
+#             freq[num] = 1
+# for num, count in freq.items() :
+#     print(f"number {num} appears {count} times.")
+
+#Challenge - 7;
+# products = {
+#     "Laptop": 80000,
+#     "Mouse": 1500,
+#     "Keyboard": 3000,
+#     "Monitor": 25000,
+#     "Headphone": 5000
+# }
+# for product, price in products.items():
+#     print(f"{product} : {price} TK.")
+
+# total_products = 0
+# total_price = 0
+
+# first_product = list(products.keys())[0]
+# expensive_product = first_product
+# expensive_price = products[first_product]
+
+# cheap_product = first_product
+# cheap_price = products[first_product]
+
+# for product, price in products.items():
+#     total_products += 1
+#     total_price += price
+#     if price > expensive_price :
+#         expensive_price = price 
+#         expensive_product = product
+#     if price < cheap_price : 
+#         cheap_price = price
+#         cheap_product = product
+
+# average_price = total_price / total_products
+# print(f"Product Count {total_products}")
+
+# print(f"expensive product - {expensive_product} is {expensive_price} TK.")
+
+# print(f"Cheap Product {cheap_product} is {cheap_price} TK.")
+# print(f"average price {average_price:.2f} TK.")
