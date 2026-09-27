@@ -39,8 +39,8 @@ def happy_birthday () :
 
 #ex:- function to display an invoice with 3 parameters username, amount, due_date
 
-def display_invoice (username, amount, due_date) :
-    print(f"hello {username}.")
-    print(f"your bill of ${amount:.2f} is due: {due_date}")
+# def display_invoice (username, amount, due_date) :
+#     print(f"hello {username}.")
+#     print(f"your bill of ${amount:.2f} is due: {due_date}")
 
-display_invoice("Arnob", 43.56, "01/01/2026")
+# display_invoice("Arnob", 43.56, "01/01/2026")

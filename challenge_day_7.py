@@ -46,9 +46,9 @@
 # check_age(18)
 
 #Challenge 7;
-def student_info(name, x, y, z) :
-    print(f"Name : {name}")
-    print(f"Math: {x}")
-    print(f"English: {y}")
-    print(f"Python: {z}")
-student_info("Arnob", 45, 56, 67)
+# def student_info(name, x, y, z) :
+#     print(f"Name : {name}")
+#     print(f"Math: {x}")
+#     print(f"English: {y}")
+#     print(f"Python: {z}")
+# student_info("Arnob", 45, 56, 67)
