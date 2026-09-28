@@ -1,0 +1,7 @@
+I am inside file.txt, 1st line.
+Welcome you're the new Python Guru, 2nd line in file.
+I am a third line.
+Twinkle twinkle little star.
+How I wonder what you are.
+Up above the world so high.
+like a diamond in the sky.
