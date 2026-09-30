@@ -103,3 +103,5 @@
 
 # with open("this_copy.txt", "w") as f:
 #     f.write(content)
+
+#tomorrow will be day-10 of learning python.
